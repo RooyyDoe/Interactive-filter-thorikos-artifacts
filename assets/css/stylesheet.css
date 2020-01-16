@@ -1,5 +1,5 @@
 body  {
-    background-image: linear-gradient(to bottom, #5068B5, #5068B5 50%, #F4F6FA 50%);
+    background-image: linear-gradient(to bottom, #F4F6FA, #F4F6FA 50%, white 50%);
     font-family: 'Roboto', sans-serif;
     background-attachment:fixed;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ body  {
 .overviewElement {
     background-color: white;
     border-radius: 1em;
-    margin: 8em 0 0 1em;
+    margin: 3em 0 0 1em;
     height: 70%;
     width: 97%;
     box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.50);
@@ -85,6 +85,6 @@ a:hover {
 
 .right > h1 {
     margin: 1em 1em -1em 1em;
-    color: white;
+    color: #5068B5;
     font-size: 40px;
 }
