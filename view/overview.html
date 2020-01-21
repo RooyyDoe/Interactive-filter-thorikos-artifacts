@@ -27,9 +27,10 @@
                     <h2>Year</h2>
                     <img src="../assets/images/back.png"></img>
                 </div>
-                <input type="checkbox" onchange="handleChange()" name="SEASON" rel="2013" value="2013" id="2013" checked>2013
-                <input type="checkbox" onchange="handleChange()" name="SEASON" rel="2014" value="2014" id="2014" checked>2014
-                <input type="checkbox" onchange="handleChange()" name="SEASON" rel="2015" value="2015" id="2015" checked>2015
+                <input type="checkbox" name="Season" class="checkbox" rel="2012" value="2012" id="2012" checked>2012
+                <input type="checkbox" name="Season" class="checkbox" rel="2013" value="2013" id="2013" checked>2013
+                <input type="checkbox" name="Season" class="checkbox" rel="2014" value="2014" id="2014" checked>2014
+                <input type="checkbox" name="Season" class="checkbox" rel="2015" value="2015" id="2015" checked>2015
 
                 <div class="filterTitle">
                     <h2>Shape Object</h2>
@@ -55,6 +56,7 @@
     
         <div class="right">
             <div class="topbar">
+                <div class="test"></div>
                 <h1>Project Thorikos</h1>
                 <div class="buttonGroup">
                     <div class="search">
@@ -72,7 +74,8 @@
         </div>
     </div>
 
-    <script src="../main.js"></script>
+    <script src="../modules/filter.js" type="module"></script>
+    <script src="../main.js" type="module"></script>
 </body>
 
 </html>

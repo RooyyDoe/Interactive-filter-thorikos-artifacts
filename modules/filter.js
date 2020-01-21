@@ -1,18 +1,27 @@
-import * as jsobject from '../assets/data/test-data.json';
-console.log(jsobject)
+import data from '../assets/data/mainData.js';
 
-var newArray = array.slice();
+let allCheckboxes = document.querySelectorAll('input[type=checkbox]');
+// console.log(data)
+let newArray = data.slice();
+// console.log(newArray)
+
+Array.prototype.forEach.call(allCheckboxes, function (el) {
+    el.addEventListener('change', handleChange);
+  });
+
 showArray(newArray);
+console.log(newArray)
 
-function showArray(array) {
-    document.getElementById("result").innerHTML = JSON.stringify(array);
+
+function showArray(data) {
+    document.querySelector('.test').innerHTML = JSON.stringify(data);
 }
 
 function handleChange() {
-  newArray = array.filter(filterByJob);
-  showArray(newArray);
+    newArray = data.filter(filterBySeason);
+    showArray(newArray);
 }
 
-function filterByJob(e) {
-  return document.getElementById(e.job).checked;
+function filterBySeason(e) {
+    return document.getElementById(e.SEASON).checked;
 }
