@@ -10,8 +10,10 @@ Overige documentatie word gedocumenteerd op de [Dropbox Paper](https://www.dropb
 
 ## Screenshots
 
+### Design
 <img width="1428" alt="Schermafdruk 2020-01-21 21 13 30" src="https://user-images.githubusercontent.com/40355914/72839677-02059200-3c93-11ea-94e9-ffeb65b90a2e.png">
 
+### Prototype
 <img width="1421" alt="Schermafdruk 2020-01-21 21 15 42" src="https://user-images.githubusercontent.com/40355914/72840846-69bcdc80-3c95-11ea-846b-a3a1c43b3ebd.png">
 
 *Schets/tekening 2*
