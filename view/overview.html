@@ -20,22 +20,59 @@
     <div class="mainContent">
         <div class="left">
             <div class="filterElement">
-                <h1>Filter</h1>
+
+                <img src="../assets/images/logo.jpeg"></img>
+
+                <div class="filterTitle">
+                    <h2>Year</h2>
+                    <img src="../assets/images/back.png"></img>
+                </div>
+                <input type="checkbox" onchange="handleChange()" name="SEASON" rel="2013" value="2013" id="2013" checked>2013
+                <input type="checkbox" onchange="handleChange()" name="SEASON" rel="2014" value="2014" id="2014" checked>2014
+                <input type="checkbox" onchange="handleChange()" name="SEASON" rel="2015" value="2015" id="2015" checked>2015
+
+                <div class="filterTitle">
+                    <h2>Shape Object</h2>
+                    <img src="../assets/images/back.png"></img>
+                </div>
+
+                <div class="filterTitle">
+                    <h2>Chronology</h2>
+                    <img src="../assets/images/back.png"></img>
+                </div>
+
+                <div class="filterTitle">
+                    <h2>Conservation</h2>
+                    <img src="../assets/images/back.png"></img>
+                </div>
+
+                <div class="filterTitle">
+                    <h2>Ware</h2>
+                    <img src="../assets/images/back.png"></img>
+                </div>
             </div>
         </div>
     
         <div class="right">
-            <h1>Project Thorikos</h1>
-            <div class="overviewElement">
+            <div class="topbar">
+                <h1>Project Thorikos</h1>
                 <div class="buttonGroup">
+                    <div class="search">
+                        <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                    </div>
                     <a href="../index.html">Grid</a>
                     <a href="overview.html">Overview</a>   
+                </div>
+            </div>
+            <div class="overviewElement">
+                <div class="container">
+
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="js/scripts.js"></script>
+    <script src="../main.js"></script>
 </body>
 
 </html>
