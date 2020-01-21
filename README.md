@@ -1,12 +1,18 @@
 # Project Thorikos
 
-In deze applicatie wordt een digitale kaart weergegeven waarop alle loopgebieden geplot zijn. Deze loopgebieden worden aangegeven met een grid op de kaart, waarin studenten hebben gezocht naar oude fragmenten. De gebruiker kan op de digitale kaart één van deze gebieden selecteren door erop te klikken. Zodra de gebruiker een gebied heeft aangeklikt komt er een nieuwe pagina naar voren, waarop de gebruiker te zien krijgt welke vondsten er zijn gedaan in het geselecteerde gebied. Elk vierkant gebied is opgedeeld in vier zones, waarin verschillende studenten gezocht hebben naar oude fragmenten. Op deze informatiepagina wordt daarom ook weergegeven uit welke zone binnen het loopgebied de vondst afkomstig is. Op de informatiepagina worden ook interessante details over de vondsten vermeld, zoals Studenten Initials, het jaar van de vondst, Shape object, shape details, de conservatie van de vondst en de chronologie. De gebruiker krijgt ook de mogelijkheid te filteren op het type fragment, zodat alleen bepaalde vondsten zichtbaar worden op de kaart.
+In het nieuwe concept heeft de user net als bij het eerdere concept 2 manieren om de data te bekijken. De user kan informatie zien via het grid wat de archeologen in Thorikos zelf hebben aangelegd, en ze kunnen de data weergeven in een overzicht waarin de objecten in een bepaalde volgorde worden weergegeven.
 
-Het hele proces van het maken van deze applicatie wordt allemaal gedocumenteerd op de [GitBook](#) van onze groep.
+Wanneer de user in het grid-view werkt, kan deze per vierkant het aantal items zien door middel van een heatmap. De heatmap is dan een visueel hulpmiddel voor de user om in 1 oogopslag te zien in welk vak er veel items gevonden zijn.
+
+De user kan ook op 1 van de vakken klikken. Zodra je hierop klikt zal de gebruiker een overzicht van de objecten krijgen die in dat vak gevonden. Deze objecten worden weergegeven ook in een visuele overzichtspagina. Deze overzichtspagina bevat filter en sorteer opties.
+
+Overige documentatie word gedocumenteerd op de [Dropbox Paper](https://www.dropbox.com/scl/fi/9egyw9rh498qxiydgdxln/Product-Biografie_-Project-Thorikos.paper?dl=0&rlkey=sd15tmakrpga5e8qmgkqb9ptg) van onze groep.
 
 ## Screenshots
 
-*Schets/tekening 1*
+<img width="1428" alt="Schermafdruk 2020-01-21 21 13 30" src="https://user-images.githubusercontent.com/40355914/72839677-02059200-3c93-11ea-94e9-ffeb65b90a2e.png">
+
+<img width="1421" alt="Schermafdruk 2020-01-21 21 15 42" src="https://user-images.githubusercontent.com/40355914/72840846-69bcdc80-3c95-11ea-846b-a3a1c43b3ebd.png">
 
 *Schets/tekening 2*
 
@@ -42,8 +48,8 @@ Run the index.html into your browser
 
 ## Bronnen
 * [Project Thorikos](http://thorikosproject.blogspot.com/) - Dit is de blog van het thorikos project overige informatie die we nodig hebben gehad zou hier vandaan komen.
-* [Remaining Sources](#) - **Still loading**
-
+* [MDN](https://developer.mozilla.org/) - Gebruikt voor de overige informatie over javascript.
+* [Stack Overflow](https://stackoverflow.com/) - Gebruikt als ik bepaalde dingen niet snapte en extra informatie hierover nodig had.
 # Licentie
 
 Meer informatie over [License](https://help.github.com/en/articles/licensing-a-repository)
