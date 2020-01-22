@@ -1,1 +1,80 @@
-Hello World
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Project Thorikos</title>
+    <meta name="description" content="project-thorikos">
+    <meta name="Roy Kuijper" content="Project">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/stylesheet.css">
+
+</head>
+
+<div class="mainContent">
+    <div class="left">
+        <div class="filterElement">
+
+            <img src="./assets/images/logo.jpeg"></img>
+
+            <div class="filterTitle">
+                <h2>Year</h2>
+                <img src="./assets/images/back.png"></img>
+            </div>
+                <ul class="styleCheckbox">
+                    <li><input type="checkbox" name="Season" class="checkbox" value="2012" id="2012"><label for="2012">2012</label></li>
+                    <li><input type="checkbox" name="Season" class="checkbox" value="2013" id="2013"><label for="2013">2013</label></li>
+                    <li><input type="checkbox" name="Season" class="checkbox" value="2014" id="2014"><label for="2014">2014</label></li>
+                    <li><input type="checkbox" name="Season" class="checkbox" value="2015" id="2015"><label for="2015">2015</label></li>
+                </ul>
+            <div class="filterTitle">
+                <h2>Shape Object</h2>
+                <img src="./assets/images/back.png"></img>
+            </div>
+
+            <div class="filterTitle">
+                <h2>Chronology</h2>
+                <img src="./assets/images/back.png"></img>
+            </div>
+
+            <div class="filterTitle">
+                <h2>Conservation</h2>
+                <img src="./assets/images/back.png"></img>
+            </div>
+            <ul class="styleCheckbox">
+                <li><input type="checkbox" name="Conservation" class="checkbox" value="Very poor" id="very-poor"><label for="very-poor">very-poor</label></li>
+                <li><input type="checkbox" name="Conservation" class="checkbox" value="Poor" id="poor"><label for="poor">poor</label></li>
+                <li><input type="checkbox" name="Conservation" class="checkbox" value="Medium" id="medium"><label for="medium">medium</label></li>
+                <li><input type="checkbox" name="Conservation" class="checkbox" value="Good" id="good"><label for="good">good</label></li>
+            </ul>
+            <div class="filterTitle">
+                <h2>Ware</h2>
+                <img src="./assets/images/back.png"></img>
+            </div>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="topbar">
+            <h1>Project Thorikos</h1>
+            <div class="buttonGroup">
+                <a href="/index.html">Grid</a>
+                <a href="./view/overview.html">Overview</a>   
+            </div>
+        </div>
+        <div class="overviewElement">
+            <div class="container">
+                <img src="./assets/images/gridHeatmap.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../main.js" type="module"></script>
+</body>
+
+</html>
