@@ -1,4 +1,4 @@
-import data from '../assets/data/mainData.js';
+import data from './assets/data/mainData.js';
 // import data from '../assets/data/test-data.js';
 
 let newArray = data.slice();
