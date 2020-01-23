@@ -23,7 +23,7 @@ document.querySelectorAll('input[type=checkbox]').forEach(checkbox => {
         //loop through all 'SHAPE' checkboxes -> if the checkbox is checked the user wants to filter on the value
         //all checked checkbox values are put in an array -> every value in shapeFilters is a value the user wants to filter on
         const shapeFilters = []
-        for (const checkBox of document.querySelectorAll('.styleCheckbox:nth-of-type(2) input[type="checkbox"]')) {
+        for (const checkBox of document.querySelectorAll('.styleCheckboxTwo:nth-of-type(2) input[type="checkbox"]')) {
             console.log(checkBox)
             if (checkBox.checked === true) {
                 shapeFilters.push(checkBox.value)
@@ -33,7 +33,7 @@ document.querySelectorAll('input[type=checkbox]').forEach(checkbox => {
         //loop through all 'CHRONOLOGY' checkboxes -> if the checkbox is checked the user wants to filter on the value
         //all checked checkbox values are put in an array -> every value in chronologyFilters is a value the user wants to filter on
         const chronologyFilters = []
-        for (const checkBox of document.querySelectorAll('.styleCheckbox:nth-of-type(3) input[type="checkbox"]')) {
+        for (const checkBox of document.querySelectorAll('.styleCheckboxTwo:nth-of-type(3) input[type="checkbox"]')) {
             if (checkBox.checked === true) {
                 chronologyFilters.push(checkBox.value)
             }
